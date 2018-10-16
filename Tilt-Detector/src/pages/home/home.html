@@ -1,0 +1,53 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title text-center>
+      Bend Detector
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-card>
+    <ion-card-header text-center="">
+      <strong>Forward Bend Detection</strong>
+    </ion-card-header>
+    <ion-card-content>
+      <p text-center>{{frontBendDetect}}</p>
+    </ion-card-content>
+  </ion-card>
+
+
+  <ion-card>
+    <ion-card-header text-center="">
+      <strong>Side Bend Detection</strong>
+    </ion-card-header>
+    <ion-card-content>
+      <p text-center>{{sideBendDetect}}</p>
+    </ion-card-content>
+  </ion-card>
+
+
+  <ion-card>
+    <ion-card-header text-center="">
+      <strong>Lying Check Beta</strong>
+    </ion-card-header>
+    <ion-card-content>
+      <p text-center>{{rotationDetect}}</p>
+    </ion-card-content>
+  </ion-card>
+
+  <br><br>
+
+  <ion-card>
+    <ion-card-header text-center="">
+      <strong>Console</strong>
+    </ion-card-header>
+    <ion-card-content>
+      <p>{{motionValue}}</p><br>
+      <p>{{orientationValue}}</p>
+    </ion-card-content>
+  </ion-card>
+
+
+</ion-content>

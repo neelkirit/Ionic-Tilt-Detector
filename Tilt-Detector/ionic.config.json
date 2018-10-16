@@ -1,0 +1,7 @@
+{
+  "name": "Tilt-Detector",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
